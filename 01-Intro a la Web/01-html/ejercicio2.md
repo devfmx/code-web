@@ -4,7 +4,7 @@ HTML Semántico es el uso de las etiquetas HTML para reforzar el significado de 
 
 Para que los motores de búsqueda sean capaces de calcular el significado de pedazos de texto que encuentran en los documentos HTML, la estructura semántica que existe en HTML necesita ser inteligente y uniformemente aplicada para resaltar el significado del texto publicado.
 
-![](https://ahrefs.com/blog/es/wp-content/uploads/2020/07/semantic-search_es.png)
+![ejercicio-2-html.png](../images/ejercicio-2-html.webp)
 
 ## Ejercicio
 

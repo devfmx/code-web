@@ -10,7 +10,7 @@ HTML utiliza etiquetas para distinguir entre texto, imágenes y otro contenido p
 
 La mayoría de los elementos HTML, cuentan con etiquetas de apertura y cierre. Una etiqueta de apertura consiste en el nombre del elemento rodeado por "<" y ">"; mientras que una etiqueta de cierre consiste en el nombre del elemento rodeado por "</" y ">".
 
-![](https://www.ampersoundmedia.com/wp-content/uploads/2020/07/html-scaled.jpg)
+![ejercicio-1-html.png](../images/ejercicio-1-html.webp)
 
 ## Ejercicio
 

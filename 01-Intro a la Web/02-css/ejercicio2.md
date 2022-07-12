@@ -2,7 +2,7 @@
 
 Utilizando box-model y floats, crea la siguiente estructura.
 
-![Ejercicio-2.png](../images/ejercicio-2-css.png)
+![ejercicio-2-css.png](../images/ejercicio-2-css.png)
 
 ## Solución
 

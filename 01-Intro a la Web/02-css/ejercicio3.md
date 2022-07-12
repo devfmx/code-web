@@ -2,7 +2,7 @@
 
 Recrea la siguiente imagen utilizando Flexbox y al finalizar recréala utilizando Grid
 
-![](https://www.banderas-mundo.es/data/flags/w580/no.webp)
+![ejercicio-3-css.png](../images/ejercicio-3-css.png)
 
 ## Solución
 
