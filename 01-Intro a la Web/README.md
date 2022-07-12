@@ -16,3 +16,7 @@ Temas offline:
 Proyecto final:
 - 
 
+```js
+const x = 'alksjdlajs';
+console.log(x);
+```
