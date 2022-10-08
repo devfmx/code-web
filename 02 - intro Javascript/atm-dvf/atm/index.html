@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../style.css"/>
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div>
+      <span class="logo-vago">🏦</span>
+      <header>
+        <h1 id="saludo_usuario"></h1>
+        <small>Porfavor seleciona una opción</small>
+      </header>
+      <main class="parilla">
+        <div class="opciones_master">        
+            <button id="retiros" class="button-master border-radius_top">
+              <span>💸</span>
+              <p>Retiros</p>
+            </button>
+            <button id="depositos" class="button-master border-radius_bottom">
+              <span>💰</span>
+              <p>Depósitos</p>
+            </button>        
+        </div>
+        <div class="opciones_secondary">
+          <button id="saldo" class="button-secondary">Consultar Saldo</button>
+          <button id="movimientos" class="button-secondary">Movimientos</button>
+          <button class="button-secondary border-radius_right">Pin Change</button>
+          <button id="salir" class="button-secondary">Salir</button>
+          <button class="button-secondary">Imprimir Recibo</button>
+          <button class="button-secondary border-radius_left">Transferencias</button>
+        </div>
+      </main>
+    </div>
+
+    
+      <div id="modal">      
+        <span>x</span>
+        <h5>Modal chido</h5>
+        <div>          
+        </div>
+      </div>
+      
+      <div id="backdrop"></div>
+        
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

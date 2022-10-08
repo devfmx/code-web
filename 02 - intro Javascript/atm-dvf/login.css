@@ -1,0 +1,28 @@
+
+#login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;  
+  background-color: var(--black);
+}
+
+#login input {
+  margin: 0.5rem;
+}
+
+.logo-vago-login {
+  margin-bottom: 30px;
+  top: 1rem;
+  left: 1rem;
+  width: 70px;
+  height: 70px;
+  background-color: #fbd301;
+  font-size: 50px;
+  border-radius: 999px;
+  /* centrar contenido */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
