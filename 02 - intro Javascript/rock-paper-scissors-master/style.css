@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+  color: #fff;
+  background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  overflow: hidden;
+}
+
+.wrapper {
+  display: grid;
+  place-content: center;
+  height: 100vh;  
+}
+
+.score_board {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1;
+  width: 700px;
+  border-radius: 10px;
+  border: 5px solid hsl(217, 16%, 45%);
+  padding: 20px;
+}
+
+.score_tab {
+  font-size: 20px;
+  color:hsl(228, 45%, 44%);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score_tab span {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+
+.tablero{  
+  margin: 5rem 0;
+  height: 300px;
+  display: grid;
+  place-content: center;
+  background-image: url(/images/bg-triangle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;  
+}
+
+.result {
+  text-align: center;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+
+.result strong{  
+  position: absolute;
+  top: 20%;
+}
+
+#option-result {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#option-result button {
+  font-size: 16px;
+  margin-top: 10px;
+  width: fit-content;
+  border-radius: 8px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.btn {
+  height: 150px;
+  width: 150px;
+  border-radius: 999px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.btn img{
+  height: 80px;
+  width: 80px;
+  margin: auto;
+}
+
+
+.reglas {
+  font-size: 20px;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  width: 100px;
+  height: fit-content;
+  border: 5px solid hsl(217, 16%, 45%);
+  position: absolute;  
+  bottom: 10%;
+  right: 10%;
+  cursor: pointer;
+}
+
+.blue {
+  border: 15px solid hsl(230, 89%, 62%);
+  
+}
+
+.blue_rigth {
+  right: 50%;
+  transform: translateX(-50%);
+  top: -20px;
+  position: absolute;
+}
+
+.blue:hover {
+  background: radial-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+  border: 15px solid #fff;
+  cursor: pointer;
+}
+
+.red {
+  border: 15px solid hsl(349, 71%, 52%);  
+}
+
+.red_left {
+  left: 50%;
+  top: -20px;
+  transform: translateX(50%);
+  position: absolute;
+}
+
+.red:hover {
+  background: radial-gradient(hsl(349, 71%, 52%), hsl(349, 71%, 57%));
+  border: 15px solid #fff;
+  cursor: pointer;
+}
+
+
+.yellow {
+  border: 15px solid hsl(39, 89%, 49%);  
+}
+
+.yellow_bottom {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+.yellow:hover {
+  background: radial-gradient(hsl(39, 89%, 49%), hsl(39, 89%, 52%));
+  border: 15px solid #fff;
+  cursor: pointer;
+}
+
+.red_normal {
+  border: 15px solid hsl(349, 71%, 52%);
+  position: absolute;
+}
+
+.reglas_img {
+  display: flex;
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+}

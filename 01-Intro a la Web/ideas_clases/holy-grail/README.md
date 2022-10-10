@@ -18,5 +18,5 @@
  ![alt text](./HolyGrail.svg)
 
 
- ### IDEA PARA CLASE:
- se puede proponer a los alumnos el intentar hacer el reto desde cero, actividad: 40 minutos 🕑
+ ### IDEA PARA CLASE activdad 40minutos 🕑:
+ se puede proponer a los alumnos el intentar hacer el reto desde cero.

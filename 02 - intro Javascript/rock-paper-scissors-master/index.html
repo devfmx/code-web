@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" type="module" defer></script>
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <div class="wrapper">
+    <div class="score_board">
+      <img src="./images/logo.svg" alt="triangle" class="triangle">
+      <div class="score_tab">
+        <p>Score</p>
+        <span id="score_number">0</span>
+      </div>
+    </div>
+
+    <div id="tablero" class="tablero">
+      <span id="rock" class="btn red red_left">
+        <img src="./images/icon-rock.svg" alt="rock">
+      </span>
+      <span id="paper" class="btn blue blue_rigth">
+        <img src="./images/icon-paper.svg" alt="paper">
+      </span>
+      <span id="scissors" class="btn yellow yellow_bottom">
+        <img src="./images/icon-scissors.svg" alt="sicors">
+      </span>
+    </div>
+
+    <div id="result" class="result hidden">
+      <span id="user_picked">
+        <span id="user_picked" class="btn blue">
+          <strong>YOUR WINNER</strong>
+          <img src="./images/icon-paper.svg" alt="paper">
+        </span>
+      </span> 
+      <div id="option-result">
+        <p>Ganate!</p>
+        <button>Jugar de Nuevo</button>      
+      </div>     
+      <span id="pc_picked">
+        <span id="user_picked" class="btn blue">
+          <strong>YOUR WINNER</strong>
+          <img src="./images/icon-paper.svg" alt="paper">
+        </span>
+      </span>
+    </div>
+
+    <button id="rules" class="reglas">
+      Reglas
+    </button>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
