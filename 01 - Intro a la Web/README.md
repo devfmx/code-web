@@ -14,9 +14,4 @@ Temas offline:
 
 
 Proyecto final:
-- 
-
-```js
-const x = 'alksjdlajs';
-console.log(x);
-```
+- Crear un sitio web estático responsivo empleando HTML y CSS y desplegarlo en Github Pages
