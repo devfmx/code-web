@@ -46,4 +46,4 @@ Temas offline:
 
 
 Proyecto final:
-- Crear un sitio web estático responsivo empleando HTML y CSS y desplegarlo en Github Pages
+- Crear un sitio web estático responsivo empleando HTML y CSS y desplegarlo en Github Pages.
