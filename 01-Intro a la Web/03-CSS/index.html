@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link
+      href="./style.css"
+      rel="stylesheet"
+    />
+    <title>Box Sizing Model</title>
+  </head>
+  <body>
+  <nav>
+    <span class="logo"></span>
+    <h1>Intro a la WEB / CSS</h1>
+  </nav>
+  <div class="wrapper">
+    <h3>Box Sizing Model</h3>
+    <p>
+      Prueba el siguiente codigo, intenta deducir el tamaño que tiene el borde rosa
+    </p>
+    <div>
+    <textarea style="height: 400px" spellcheck="false" type="text/html">
+      <style>
+        .parent {
+          width: 200px;
+        }
+        .box {
+          width: 100%;
+          border: 2px solid hotpink;
+          padding: 20px;
+        }
+      </style>
+
+      <div class="parent">
+        <div class="box"></div>
+      </div></textarea>    
+    </div>
+    <div class="option">
+      <button id="border-box">Ver respuesta</button>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <h3>CSS RESET</h3>
+    <div class="body_card">
+      <p>
+        Cada vez que se inicia un proyecto con CSS es ideal que nos aseguremos que los estilos, 
+        sean como la idea original en cada uno de los exploradores que existen en el marcado.
+      </p>
+      <p>
+        Por eso a travez del tiempo muchos programadores han optado por la solucion de Eric Mayer <a href="https://meyerweb.com/eric/tools/css/reset/" target="_blank">CSS Rest</a>
+      </p>
+      <p>
+        Nosotros usaremos y explicaremos el reset de <a href="https://www.joshwcomeau.com/" target="_blank">JOHS COMEAU </a>
+        el cúal nos ofrece una solución mas moderna y que nos permite tener un mejor control de los estilos
+      </p>
+    </div>
+    <!-- 1ra opcion del reset CSS  -->
+    <div class="divider" aria-hidden></div>
+    <div>
+    <textarea style="height: 100px" spellcheck="false" type="text/html">
+    *, *::before, *::after {
+      box-sizing: border-box;
+    } 
+    </textarea>    
+    </div>
+    <div class="option">
+      <button>Explicación</button>
+    </div>
+    <!-- 1ra opcion del reset CSS  -->
+    <div class="divider" aria-hidden></div>
+    <div>
+    <textarea style="height: 100px" spellcheck="false" type="text/html">
+    *, *::before, *::after {
+      box-sizing: border-box;
+    } 
+    </textarea>    
+    </div>
+    <div class="option">
+      <button>Explicación</button>
+    </div>
+    <!-- 1ra opcion del reset CSS  -->
+    <div class="divider" aria-hidden></div>
+    <div>
+    <textarea style="height: 100px" spellcheck="false" type="text/html">
+    *, *::before, *::after {
+      box-sizing: border-box;
+    } 
+    </textarea>    
+    </div>
+    <div class="option">
+      <button>Explicación</button>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>  
+  </body>
+</html>
